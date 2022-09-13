@@ -5,7 +5,6 @@ import 'package:notesapp/firebase_options.dart';
 import 'package:notesapp/views/login_view.dart';
 import 'package:notesapp/views/register_view.dart';
 import 'package:notesapp/views/verify_email_view.dart';
-import 'dart:developer' as devtools show log;
 // import 'package:notesapp/views/login_view.dart';
 // import 'package:notesapp/views/register_view.dart';
 
@@ -21,6 +20,7 @@ void main() {
       routes: {
         "/login/": (context) => const LoginView(),
         "/register/": (context) => const RegisterView(),
+        "/notes/": (context) => const NotesView(),
       },
     ),
   );
