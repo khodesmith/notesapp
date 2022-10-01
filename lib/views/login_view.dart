@@ -31,9 +31,6 @@ class _LoginViewState extends State<LoginView> {
 
   @override
   Widget build(BuildContext context) {
-    // Firebase.initializeApp(
-    //   options: DefaultFirebaseOptions.currentPlatform,
-    // );
     return Scaffold(
       appBar: AppBar(
         title: const Text("Login"),

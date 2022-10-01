@@ -1,5 +1,4 @@
 import 'package:notesapp/services/auth/auth_provider.dart';
-// import 'package:notesapp/services/auth/auth_service.dart';
 import 'package:notesapp/services/auth/auth_user.dart';
 import 'package:notesapp/services/auth/firebase_auth_provider.dart';
 
